@@ -5,27 +5,23 @@ An application to generate a password given certain criteria.
 
 ## Description of work performed
 
-Given starter for the beginnings of a password generator. Using the following criteria the goal was to completd JavaScript code to create a functioning application. 
+I was given starter code and tasked with creating a password generator app. The password generator application allows the user to choose a password from the following criteria:
+1. User can choose how many characters the password can be, but must be betweeb 8 and 128 characters in length.
+2. User can choose if they would like lowercase letters.
+3. User can choose if they would like uppercase letters. 
+4. User can choose if they would like to include numbers. 
+5. User can choose if they would like to include special characters. 
 
 
-## Acceptance Criteria
-```
-GIVEN I need a new, secure password;
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+## Installation
+
+N/A
+
+## Usage
+
+The user starts by clicking on the "Generate Password" button. The user will then be prompted to make a password based off certain criterial. If no criteria is chosen, the user will be prompted to make at lease one character type selection. 
+If the chosen character length is below 8 or more than 128 characters, the user will be prompted to choose between 8 and 128 characters. 
+Once the given criteria has been chosen, the password will be generated in the container.
 
 ## Screenshot of page
 
